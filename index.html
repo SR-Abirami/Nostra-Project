@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra</title>
+    <!--Tailwind CSS CDN Linl-->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!--Google Fonts Link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap" rel="stylesheet">
+    <!--CDN Link-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body class="font-sans">
+
+    <!--Responsive Navbar-->
+    <nav class="bg-white p-3 flex items-center justify-between sticky top-0 z-10">
+        <h1 class="font-bold text-2xl">Nostra</h1>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="size-6 w-6 h-6 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+        <ul class="gap-10 text-black text-1xl md:flex hidden">
+            <li>
+                <a class="hover:underline  hover:text-black" href="index.html">Home</a>
+            </li>
+
+            <li>
+                <a class="hover:underline  hover:text-black" href="index.html">New Arrival</a>
+            </li>
+
+            <li>
+                <a class="hover:underline  hover:text-black" href="index.html">Most Wanted</a>
+            </li>
+
+            <li>
+                <a class="hover:underline  hover:text-black" href="collection.html">Collections</a>
+            </li>
+
+            <li>
+                <a class="hover:underline hover:text-black" href="contact.html">Contact Us</a>
+            </li>
+
+        </ul>
+    </nav>
+
+    <!--Heading Box-->
+    <div class="relative m-4 bg-cover bg-center min-h-screen rounded-lg flex flex-col items-center justify-center text-center text-white"
+        style="background-image: url('./images/i1.jpg');">
+
+        <!-- Left Arrow -->
+        <button class="absolute left-4 text-white text-4xl font-bold bg-black/50 p-2 rounded-full hover:bg-black/70">
+            &#10094;
+        </button>
+
+        <!-- Content -->
+        <h1 class="text-5xl font-extrabold">Level up your style with our</h1>
+        <p class="text-xl font-semibold mt-4">Summer Collections</p>
+        <button class="mt-6 bg-white text-black px-6 py-3 rounded hover:bg-black hover:text-white transition">
+            Shop Now →
+        </button>
+
+        <!-- Right Arrow -->
+        <button class="absolute right-4 text-white text-4xl font-bold bg-black/50 p-2 rounded-full hover:bg-black/70">
+            &#10095;
+        </button>
+    </div>
+
+    <!-- Brands -->
+    <h1 class="font-bold text-2xl m-3">Brands</h1>
+    <div class="flex flex-wrap justify-between items-center gap-10 mt-10 sm:gap-16 md:gap-20 lg:gap-40 m-5">
+        <div class="flex flex-col items-center">
+            <i class="fa-brands fa-behance text-white text-3xl bg-black rounded-3xl p-3"></i>
+            <p class="text-lg sm:text-xl md:text-2xl mt-2">Puma</p>
+        </div>
+
+        <div class="flex flex-col items-center">
+            <i class="fa-brands fa-twitch text-5xl"></i>
+            <p class="text-lg sm:text-xl md:text-2xl mt-2">Adidas</p>
+        </div>
+
+        <div class="flex flex-col items-center">
+            <i class="fa-solid fa-star text-6xl text-black"></i>
+            <p class="text-lg sm:text-xl md:text-2xl mt-2">Simple</p>
+        </div>
+
+        <div class="flex flex-col items-center">
+            <i class="fa-solid fa-leaf text-6xl text-black"></i>
+            <p class="text-lg sm:text-xl md:text-2xl mt-2">Leaves</p>
+        </div>
+
+        <div class="flex flex-col items-center">
+            <i class="fa-brands fa-behance text-white text-3xl bg-black rounded-3xl p-3"></i>
+            <p class="text-lg sm:text-xl md:text-2xl mt-2">Behance</p>
+        </div>
+
+    </div>
+
+
+    <!--Customer Experiences-->
+    <div class="flex flex-col md:flex-row md:flex-wrap justify-between items-center mt-20">
+        <h1 class="font-bold text-3xl m-3">We Provide Best Customer Experiences</h1>
+        <p class="text-xl">|| We ensure that our customer have the best shopping experience</p>
+    </div>
+
+    <div class="flex">
+        <div class="m-3 bg-yellow-100 border border-white rounded p-2  w-full md:w-80">
+            <i class="fa-solid fa-check text-1xl mb-2 border-2 border-black rounded-3xl p-2"
+                style="color: #00040a;"></i>
+            <h1 class=" font-bold text-1xl">Original Products</h1>
+            <p class="text-1xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio, culpa.</p>
+        </div>
+
+        <div class="m-3 bg-yellow-100 border border-white rounded p-2  w-full md:w-80">
+            <i class="fa-regular fa-face-smile text-4xl mb-2" style="color: #000205;"></i>
+            <h1 class=" font-bold text-1xl">Satisfaction Guarantee</h1>
+            <p class="text-1xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio, culpa.</p>
+        </div>
+
+        <div class="m-3 bg-yellow-100 border border-white rounded p-2 w-full md:w-80">
+            <i class="fa-solid fa-feather text-4xl mb-2" style="color: #00040a;"></i>
+            <h1 class=" font-bold text-1xl">New Arrival Everyday</h1>
+            <p class="text-1xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio, culpa.</p>
+        </div>
+
+        <div class="m-3 bg-yellow-100 border border-white rounded p-2 w-full md:w-80">
+            <i class="fa-solid fa-truck-fast text-4xl mb-2" style="color: #00040a;"></i>
+            <h1 class=" font-bold text-1xl">Fast & Free Shipping</h1>
+            <p class="text-1xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio, culpa.</p>
+        </div>
+    </div>
+
+    <!--New Arrival-->
+    <h1 class="font-bold text-2xl m-3">New Arrival</h1>
+    <div class="flex gap-9">
+        <div class="relative m-3">
+            <img class="w-52  border rounded-2xl relative " src="./images/i2.jpg">
+            <button
+                class="absolute top-48 ml-8 bg-white text-black px-6 py-3 rounded hover:bg-black hover:text-white transition lg:block sm:hidden">
+                Shop Now →
+            </button>
+        </div>
+
+        <div class="relative m-3">
+            <img class="w-52 border rounded-2xl relative " src="./images/i3.jpg">
+            <button
+                class="absolute top-48 ml-8 bg-white text-black px-6 py-3 rounded hover:bg-black hover:text-white transition lg:block sm:hidden">
+                Shop Now →
+            </button>
+        </div>
+
+        <div class="relative m-3">
+            <img class="w-52 border rounded-2xl relative " src="./images/i4.jpg">
+            <button
+                class="absolute top-48 ml-8 bg-white text-black px-6 py-3 rounded hover:bg-black hover:text-white transition lg:block sm:hidden">
+                Shop Now →
+            </button>
+        </div>
+
+        <div class="relative m-3">
+            <img class="w-52 border rounded-2xl relative " src="./images/i5.jpg">
+            <button
+                class="absolute top-48 ml-8 bg-white text-black px-6 py-3 rounded hover:bg-black hover:text-white transition lg:block sm:hidden">
+                Shop Now →
+            </button>
+        </div>
+
+        <div class="relative m-3">
+            <img class="w-52 border rounded-2xl relative " src="./images/i3.jpg">
+            <button
+                class="absolute top-48 ml-8 bg-white text-black px-6 py-3 rounded hover:bg-black hover:text-white transition lg:block sm:hidden">
+                Shop Now →
+            </button>
+        </div>
+    </div>
+
+    <!--Most Wanted-->
+    <h1 class="font-bold text-2xl m-3 mt-10">Most Wanted</h1>
+    <div class="flex gap-9">
+        <div class="relative m-3">
+            <img class="border rounded-3xl relative" src="./images/i6.jpg">
+            <button class="absolute top-1.5 ml-1.5 text-xl bg-red-600 text-white px-6 py-1 rounded lg:block sm:hidden">
+                Sale
+            </button>
+            <i class="fa-regular fa-heart text-3xl absolute top-52 ml-40" style="color: #00040a;"></i>
+        </div>
+
+        <div class="relative m-3">
+            <img class="border rounded-3xl relative" src="./images/i7.jpg">
+            <button class="absolute top-1.5 ml-1.5 text-xl bg-red-600 text-white px-6 py-1 rounded lg:block sm:hidden">
+                Sale
+            </button>
+            <i class="fa-regular fa-heart text-3xl absolute top-52 ml-40" style="color: #00040a;"></i>
+        </div>
+
+        <div class="relative m-3">
+            <img class="border rounded-3xl relative" src="./images/i8.jpg">
+            <button class="absolute top-1.5 ml-1.5 text-xl bg-red-600 text-white px-6 py-1 rounded lg:block sm:hidden">
+                Sale
+            </button>
+            <i class="fa-regular fa-heart text-3xl absolute top-52 ml-40" style="color: #00040a;"></i>
+        </div>
+
+        <div class="relative m-3">
+            <img class="border rounded-xl relative" src="./images/i9.jpg">
+            <button class="absolute top-0 ml-0 text-xl bg-red-600 text-white px-6 py-1 rounded lg:block sm:hidden">
+                Sale
+            </button>
+            <i class="fa-regular fa-heart text-3xl absolute top-52 ml-40" style="color: #00040a;"></i>
+        </div>
+
+        <div class="relative m-3">
+            <img class="border rounded-3xl relative" src="./images/i10.jpg">
+            <button class="absolute top-1.5 ml-1.5 text-xl bg-red-600 text-white px-6 py-1 rounded lg:block sm:hidden">
+                Sale
+            </button>
+            <i class="fa-regular fa-heart text-3xl absolute top-52 ml-40" style="color: #00040a;"></i>
+        </div>
+    </div>
+
+    <!--Offer Box-->
+    <div class="flex relative m-5 bg-yellow-100 border-white rounded-xl">
+        <div class="m-10">
+            <img class="w-96 h-80" src="./images/i1.jpg">
+        </div>
+        <div class="m-10">
+            <h1 class="font-bold text-5xl">Limited Offer</h1>
+            <p class="text-4xl mt-5">35% OFF on this for the first 30 Customers</p>
+            <button class=" bg-black text-white px-6 py-3 rounded mt-5">
+                Shop Now →
+            </button>
+        </div>
+    </div>
+
+    <!--News Letter-->
+    <section class="text-center">
+        <h1 class="text-4xl font-bold mt-5 text-center">Join Our News Letter</h1>
+        <p class="text-2xl mt-3">Signup for Our email newspaper to get exculsive discounts, updates, and more</p>
+        <input type="text" class="border-2 border-black p-2 m-3 mt-3" style="width:80%;">
+        <br>
+        <button class="bg-yellow-100 text-black font-bold border-black border-2 rounded-2xl p-3 m-1 px-6 py-3">Subscribe
+            →</button>
+    </section>
+
+    <!--Footer-->
+    <section class="bg-yellow-100 p-5 flex flex-col gap-5 mt-3">
+        <h1 class="text-5xl font-bold">Nostra</h1>
+        <P class="text-3xl">The Standard chunk of Lorem ipsum used since the 1500s is reprodused below for those
+            interest</P>
+        <div class="flex gap-20 text-2xl m-3">
+            <i class="fa-solid fa-circle-user" style="color: #000205;"></i>
+            <i class="fa-solid fa-dove" style="color: #000000;"></i>
+            <i class="fa-solid fa-camera-retro" style="color: #000000;"></i>
+        </div>
+        <p class="text-3xl">@ 2023 Nostra.com</p>
+    </section>
+
+</body>
+
+
+</html>
