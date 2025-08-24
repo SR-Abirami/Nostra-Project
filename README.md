@@ -1,15 +1,8 @@
 # Nostra-Project
 # 👗 Nostra Clone Website
 
-A responsive **Nostra-inspired clothing shopping website** built using **HTML5** and **Tailwind CSS**.  
+A responsive **Nostra-inspired website** built using **HTML5** and **Tailwind CSS**.  
 This project replicates the look and feel of a modern e-commerce platform, featuring **Home**, **Collections**, and **Contact** pages. It demonstrates clean UI design, responsive layouts, and efficient styling with Tailwind CSS.
-
----
-
-## 🌐 Live Demo
-
-🚀 [View Live Website](#)  
-_(Add your GitHub Pages or deployment link here)_
 
 ---
 
@@ -34,8 +27,4 @@ _(Add your GitHub Pages or deployment link here)_
 
 - HTML5  
 - Tailwind CSS  
-
----
-
-## 📁 Folder Structure
 
